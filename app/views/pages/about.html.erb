@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About the Alpha Blog</title>
+  <style>
+body {
+    background-image: url(http://www.free-vectors.com/images/Nature/073_tropical-sunset-vectors-l.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: gray;
+    color: #00aba9;
+    }
+header {
+       background-color: #ffd4e5;
+       color: #ff0097;
+       text-align: center;
+       font-family: Verdana, Arial;
+       font-size: 100px;
+       }
+nav {
+    background-color: lightgray;
+    color: #ff0097;
+    padding: 10px;
+    width: 100px;
+    height: 400px;
+    float: left;
+    line-height: 30px
+    }
+
+section {
+        background-color: white;
+        color: #00aba9;
+        width: 400px;
+        height: 400px;
+        float: right;
+        padding: 10px;
+        margin: 5px;
+        border: 5px solid purple;
+        }
+
+footer {
+        background-color: black;
+        color: white;
+        font-size: 10px;
+        clear: both;
+        padding: 5px;
+        text-align: center;
+        }
+</style>
+</head>
+
+  <body>
+
+<header>About Alpha Blog</header>
+<nav>Home<br>About<br>Contact</nav>
+<section>
+<p>Currently Alpha Blog is in search of an identity.</p>
+  <p>It hopes that with the help of its numerous subscribers it will soon <em>find itself</em>.</p>
+<p>It further hopes you will send in suggestions as to where it should search next.</p>
+  <p>Currently it is looking in the Bahamas...</p>
+<p>Please enter your bright ideas in the search box below.</p>
+<form style="text-align: center">
+  <p><span style="color: purple">Bright ideas:</span></p>
+<input type="text" name="ideas" style="text-align= center"><br><br>
+
+<input type="submit" value="Inspire me"><br><br>
+  <img src="http://images.clipartpanda.com/light-bulb-clip-art-royalty-free-light-bulb-clipart-illustration-94413.jpg" width="50px">
+</form>
+
+</section>
+<footer>All rights reserved to Nisha Barak.</footer>
+
+<%= link_to 'Home', root_path %>
+  </body>
+  </html>
