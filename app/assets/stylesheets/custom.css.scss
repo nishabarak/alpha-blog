@@ -24,7 +24,7 @@ $navbar-default-bg: darkgreen;
 .jumbotron {
   background-image: asset-url('tree_path.jpg');
   background-size: cover;
-  height: 450px;
+  height: 500px;
 }
 
 .jumbotron h1 {
@@ -45,8 +45,20 @@ $navbar-default-bg: darkgreen;
   border-top: 1px solid #eaeaea;
   padding-top: 5px;
 }
+
 .description {
   margin-top: 0;
+}
+
+.article-title {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.article-body {
+  border-top: 1px solid #eaeaea;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 footer {
